@@ -24,7 +24,8 @@ body {
     /* Green border */
     color: black;
     /* White text */
-    padding: 11px 14px;
+    padding: 7px 5px;
+    font-size: 1.2em;
     /* Some padding */
     cursor: pointer;
     /* Pointer/hand icon */
@@ -35,20 +36,17 @@ body {
 
 @media (max-width: 1024px) {
     .btn-group button {
-        font-size: 0.7em;
         height: 40px;
         width: 40px;
-        padding: 11px 10px;
     }
 
     .minGroup button {
-        padding-left : 20px;
+        padding-left : 13px;
     }
 }
 
 @media (min-width: 1024px) {
     .btn-group button {
-        font-size: 1.2em;
         height: 45px;
         width: 50px;
     }
